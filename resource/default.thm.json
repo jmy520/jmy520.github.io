@@ -1,0 +1,14 @@
+{
+	"skins": {
+		"StartPage": "resource/skins/StartPage.exml",
+		"MissionPage": "resource/skins/MissionPage.exml",
+		"GamePage": "resource/skins/GamePage.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skins/GamePage.exml",
+		"resource/skins/MissionPage.exml",
+		"resource/skins/StartPage.exml"
+	],
+	"path": "resource/default.thm.json"
+}
