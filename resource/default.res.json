@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "egret_icon_png,description_json,click_effect_mp3,game_over_mp3,game_win_mp3,monster_die_mp3,new_monster_mp3,power_recovery_mp3,skill_mp3,start_game_mp3,answer_background_png,back_png,element_super_man_png,express_container_png,game_background_png,monster_01_png,monster_02_png,monster_03_png,progress_background_png,progress_thumbnail_png,start_png,start_game_background_png,background_music_04_mp3,background_music_03_mp3,background_music_05_mp3,background_music_06_mp3,background_music_01_mp3,background_music_02_mp3,merge_animations_png,merge_animations_json,power_skill_02_mp3,power_skill_01_mp3,bullet_02_png,bullet_01_png,player_animations_png,player_animations_json,leaf_01_json,leaf_01_png,cube_fonts_png,cube_fonts_fnt",
+			"keys": "egret_icon_png,description_json,click_effect_mp3,game_over_mp3,game_win_mp3,monster_die_mp3,new_monster_mp3,power_recovery_mp3,skill_mp3,start_game_mp3,answer_background_png,back_png,element_super_man_png,express_container_png,game_background_png,monster_01_png,monster_02_png,monster_03_png,progress_background_png,start_png,start_game_background_png,background_music_04_mp3,background_music_03_mp3,background_music_05_mp3,background_music_06_mp3,background_music_01_mp3,background_music_02_mp3,merge_animations_png,merge_animations_json,power_skill_02_mp3,power_skill_01_mp3,bullet_02_png,bullet_01_png,player_animations_png,player_animations_json,leaf_01_json,leaf_01_png,cube_fonts_png,cube_fonts_fnt,img_cloud_05_png,img_cloud_01_png,img_cloud_02_png,img_cloud_04_png,img_cloud_03_png,amazing_mp3,unbelievable_mp3,nice_mp3,uh_oh_mp3,pixel_death_mp3,mission_button_normal_png,mission_button_success_png,mission_background_png,star_png,star_effect_png",
 			"name": "preload"
 		}
 	],
@@ -70,11 +70,6 @@
 			"url": "assets/images/progress_background.png",
 			"type": "image",
 			"name": "progress_background_png"
-		},
-		{
-			"url": "assets/images/progress_thumbnail.png",
-			"type": "image",
-			"name": "progress_thumbnail_png"
 		},
 		{
 			"url": "assets/images/start_game_background.png",
@@ -205,6 +200,81 @@
 			"url": "assets/fonts/cube_fonts.png",
 			"type": "image",
 			"name": "cube_fonts_png"
+		},
+		{
+			"url": "assets/images/img_cloud_05.png",
+			"type": "image",
+			"name": "img_cloud_05_png"
+		},
+		{
+			"url": "assets/images/img_cloud_01.png",
+			"type": "image",
+			"name": "img_cloud_01_png"
+		},
+		{
+			"url": "assets/images/img_cloud_02.png",
+			"type": "image",
+			"name": "img_cloud_02_png"
+		},
+		{
+			"url": "assets/images/img_cloud_04.png",
+			"type": "image",
+			"name": "img_cloud_04_png"
+		},
+		{
+			"url": "assets/images/img_cloud_03.png",
+			"type": "image",
+			"name": "img_cloud_03_png"
+		},
+		{
+			"url": "assets/sounds/amazing.mp3",
+			"type": "sound",
+			"name": "amazing_mp3"
+		},
+		{
+			"url": "assets/sounds/unbelievable.mp3",
+			"type": "sound",
+			"name": "unbelievable_mp3"
+		},
+		{
+			"url": "assets/sounds/nice.mp3",
+			"type": "sound",
+			"name": "nice_mp3"
+		},
+		{
+			"url": "assets/sounds/uh_oh.mp3",
+			"type": "sound",
+			"name": "uh_oh_mp3"
+		},
+		{
+			"url": "assets/sounds/pixel_death.mp3",
+			"type": "sound",
+			"name": "pixel_death_mp3"
+		},
+		{
+			"url": "assets/images/mission_button_normal.png",
+			"type": "image",
+			"name": "mission_button_normal_png"
+		},
+		{
+			"url": "assets/images/mission_button_success.png",
+			"type": "image",
+			"name": "mission_button_success_png"
+		},
+		{
+			"url": "assets/images/mission_background.png",
+			"type": "image",
+			"name": "mission_background_png"
+		},
+		{
+			"url": "assets/images/star.png",
+			"type": "image",
+			"name": "star_png"
+		},
+		{
+			"url": "assets/images/star_effect.png",
+			"type": "image",
+			"name": "star_effect_png"
 		}
 	]
 }

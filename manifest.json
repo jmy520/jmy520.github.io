@@ -7,10 +7,11 @@
 		"js/dragonBones.min_2f0f2aba.js",
 		"js/game.min_ce13e75b.js",
 		"js/tween.min_6c5a88f9.js",
-		"js/promise.min_83a6a5d.js"
+		"js/promise.min_83a6a5d.js",
+		"js/particle.min_d717ba80.js"
 	],
 	"game": [
-		"js/default.thm_ae34042b.js",
-		"js/main.min_588d8b73.js"
+		"js/default.thm_f9117920.js",
+		"js/main.min_adf35978.js"
 	]
 }
