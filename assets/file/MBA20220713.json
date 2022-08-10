@@ -1,0 +1,52 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": [
+    {
+      "id": 16,
+      "merchantId": "MBA20220713",
+      "title": "favicon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657779435279.ico",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657779435279.ico",
+      "type": 0,
+      "position": 4,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 17,
+      "merchantId": "MBA20220713",
+      "title": "home-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657778844445.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657778828431.png",
+      "type": 0,
+      "position": 3,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 18,
+      "merchantId": "MBA20220713",
+      "title": "login-bg",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657778894784.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657778894784.png",
+      "type": 0,
+      "position": 1,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 19,
+      "merchantId": "MBA20220713",
+      "title": "login-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657778912245.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657778912245.png",
+      "type": 0,
+      "position": 2,
+      "status": 0,
+      "remarks": null
+    }
+  ],
+  "operationContext": null,
+  "operationColumn": null
+}

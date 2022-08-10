@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": [
+    {
+      "id": 21,
+      "merchantId": "YUANQI20220712",
+      "title": "favicon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657880950578.ico",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657880950578.ico",
+      "type": 0,
+      "position": 4,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 22,
+      "merchantId": "YUANQI20220712",
+      "title": "home-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657881027022.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657881017951.png",
+      "type": 0,
+      "position": 3,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 23,
+      "merchantId": "YUANQI20220712",
+      "title": "login-bg",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657881032496.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657881032496.png",
+      "type": 0,
+      "position": 1,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 24,
+      "merchantId": "YUANQI20220712",
+      "title": "login-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657881048362.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657881048362.png",
+      "type": 0,
+      "position": 2,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 25,
+      "merchantId": "YUANQI20220712",
+      "title": "科普",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657880986842.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657880979628.png",
+      "type": 0,
+      "position": 8,
+      "status": 0,
+      "remarks": null
+    }
+  ],
+  "operationContext": null,
+  "operationColumn": null
+}

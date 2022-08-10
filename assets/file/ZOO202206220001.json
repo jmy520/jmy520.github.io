@@ -1,0 +1,74 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": [
+    {
+      "id": 1,
+      "merchantId": "ZOO202206220001",
+      "title": "favicon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601046765.ico",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601046765.ico",
+      "type": 0,
+      "position": 4,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 2,
+      "merchantId": "ZOO202206220001",
+      "title": "home-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601288251.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601383265.png",
+      "type": 0,
+      "position": 3,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 3,
+      "merchantId": "ZOO202206220001",
+      "title": "login-bg",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601457915.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601457915.png",
+      "type": 0,
+      "position": 1,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 4,
+      "merchantId": "ZOO202206220001",
+      "title": "login-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601383265.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657601383265.png",
+      "type": 0,
+      "position": 2,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 6,
+      "merchantId": "ZOO202206220001",
+      "title": "喂养",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657609450184.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657609450184.png",
+      "type": 0,
+      "position": 6,
+      "status": 0,
+      "remarks": "宠物近况已更新，快去看看"
+    },
+    {
+      "id": 16,
+      "merchantId": "ZOO202206220001",
+      "title": "1",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657682482100.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657682494923.png",
+      "type": 0,
+      "position": 8,
+      "status": 0,
+      "remarks": null
+    }
+  ],
+  "operationContext": null,
+  "operationColumn": null
+}

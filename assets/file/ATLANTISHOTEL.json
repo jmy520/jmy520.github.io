@@ -1,0 +1,96 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": [
+    {
+      "id": 7,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "喂养",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657608804639.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657608804639.png",
+      "type": 0,
+      "position": 6,
+      "status": 0,
+      "remarks": "宠物近况已更新，快去看看"
+    },
+    {
+      "id": 8,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "云相册",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657608829478.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657608829478.png",
+      "type": 0,
+      "position": 7,
+      "status": 0,
+      "remarks": "你的相册已更新，快去看看"
+    },
+    {
+      "id": 9,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "favicon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657611144200.ico",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657611144200.ico",
+      "type": 0,
+      "position": 4,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 10,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "home-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657629309846.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657629351806.png",
+      "type": 0,
+      "position": 3,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 11,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "login-bg",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657627826358.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657627826358.png",
+      "type": 0,
+      "position": 1,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 12,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "login-icon",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657627830975.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657627830975.png",
+      "type": 0,
+      "position": 2,
+      "status": 0,
+      "remarks": null
+    },
+    {
+      "id": 14,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "亚特兰蒂斯之旅",
+      "whiteUrl": "1",
+      "blackUrl": null,
+      "type": 0,
+      "position": 5,
+      "status": 0,
+      "remarks": "1"
+    },
+    {
+      "id": 15,
+      "merchantId": "ATLANTISHOTEL",
+      "title": "1",
+      "whiteUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/2/1657629696206.png",
+      "blackUrl": "https://mars-nft-resource.oss-cn-shenzhen.aliyuncs.com/mars/prod/0/1657628789535.png",
+      "type": 0,
+      "position": 8,
+      "status": 0,
+      "remarks": "1"
+    }
+  ],
+  "operationContext": null,
+  "operationColumn": null
+}

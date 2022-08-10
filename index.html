@@ -1,71 +1,80 @@
-<!doctype html><html><head><meta charset="utf-8"/><title>Egret</title><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="full-screen" content="true"/><meta name="screen-orientation" content="portrait"/><meta name="x5-fullscreen" content="true"/><meta name="360-fullscreen" content="true"/><style>html,
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>数字藏品</title>
+    <base href="/">
+    <meta name="color-scheme" content="light dark">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="icon" type="image/png" href="assets/icon/favicon.ico">
+    <!-- add to homescreen for ios -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />-->
+    <link rel="shortcut icon" href="assets/icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/app/marsnft-logo.png">
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+<!--    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>-->
+    <script src="https://jic.talkingdata.com/app/h5/v1?appid=799ACB5EF1AE49B892D43B1FEADF00BE&amp;vn=marsnft1.1.1&amp;vc=1.1.1"></script>
+  <style>:root{--devui-global-bg:transparent;--devui-global-bg-normal:transparent;--devui-base-bg:transparent;--devui-base-bg-dark:transparent;--devui-brand:#e2aa6f;--devui-brand-foil:transparent;--devui-brand-hover:transparent;--devui-brand-active:transparent;--devui-brand-active-focus:transparent;--devui-contrast:#c7000b;--devui-text:#3d464f;--devui-text-weak:#575d6c;--devui-aide-text:#8a8e99;--devui-aide-text-stress:#575d6c;--devui-placeholder:#8a8e99;--devui-light-text:#ffffff;--devui-dark-text:#3d464f;--devui-link:#c79662;--devui-link-active:#e5b37d;--devui-link-light:#96adfa;--devui-link-light-active:#beccfa;--devui-line:transparent;--devui-dividing-line:transparent;--devui-block:#ffffff;--devui-area:#f8f8f8;--devui-danger:#ff4d4f;--devui-warning:#f8d421;--devui-waiting:#3b9af8;--devui-success:#2dd36f;--devui-info:#e2aa6f;--devui-initial:#e9edfa;--devui-unavailable:#f5f5f6;--devui-shadow:rgba(0, 0, 0, .2);--devui-light-shadow:rgba(0, 0, 0, .1);--devui-icon-text:#3d464f;--devui-icon-bg:#e2aa6f;--devui-icon-fill:#d3d5d9;--devui-icon-fill-hover:#adb5ce;--devui-icon-fill-active:transparent;--devui-icon-fill-active-hover:transparent;--devui-form-control-line:transparent;--devui-form-control-line-hover:transparent;--devui-form-control-line-active:transparent;--devui-form-control-line-active-hover:transparent;--devui-list-item-active-bg:#e2aa6f;--devui-list-item-active-text:#ffffff;--devui-list-item-active-hover-bg:#e2aa6f;--devui-list-item-hover-bg:#f2f5fc;--devui-list-item-hover-text:#e2aa6f;--devui-list-item-selected-bg:#e9edfa;--devui-list-item-strip-bg:#f2f5fc;--devui-disabled-bg:#f5f5f6;--devui-disabled-line:#dfe1e6;--devui-disabled-text:#adb0b8;--devui-primary-disabled:#beccfa;--devui-icon-fill-active-disabled:#beccfa;--devui-label-bg:#eef0f5;--devui-connected-overlay-bg:#ffffff;--devui-connected-overlay-line:transparent;--devui-fullscreen-overlay-bg:#ffffff;--devui-feedback-overlay-bg:#464d6e;--devui-feedback-overlay-text:#dfe1e6;--devui-embed-search-bg:#f2f5fc;--devui-embed-search-bg-hover:#eef0f5;--devui-float-block-shadow:rgba(94, 124, 224, .3);--devui-highlight-overlay:rgba(255, 255, 255, .8);--devui-range-item-hover-bg:#e9edfa;--devui-primary:#e2aa6f;--devui-primary-hover:#e2aa6f;--devui-primary-active:#e2aa6f;--devui-contrast-hover:#d64a52;--devui-contrast-active:#b12220;--devui-danger-line:#ff4d4f;--devui-danger-bg:#ffeeed;--devui-warning-line:#f8d421;--devui-warning-bg:#fff3e8;--devui-info-line:#e2aa6f;--devui-info-bg:#f2f5fc;--devui-success-line:#2dd36f;--devui-success-bg:#edfff9;--devui-primary-line:#e2aa6f;--devui-primary-bg:#f2f5fc;--devui-default-line:transparent;--devui-default-bg:transparent;--devui-font-size:12px;--devui-font-size-card-title:14px;--devui-font-size-page-title:16px;--devui-font-size-modal-title:18px;--devui-font-size-price:20px;--devui-font-size-data-overview:24px;--devui-font-size-icon:16px;--devui-font-size-sm:12px;--devui-font-size-md:12px;--devui-font-size-lg:14px;--devui-shadow-length-base:0 1px 4px 0;--devui-shadow-length-slide-left:-2px 0 8px 0;--devui-shadow-length-slide-right:2px 0 8px 0;--devui-shadow-connected-overlay:0 2px 8px 0;--devui-shadow-length-hover:0 4px 16px 0;--devui-shadow-length-feedback-overlay:0 4px 16px 0;--devui-shadow-fullscreen-overlay:0 8px 40px 0;--devui-border-radius:0px;--devui-border-radius-feedback:0px;--devui-border-radius-card:0px;--devui-animation-duration-slow:.3s;--devui-animation-duration-base:.2s;--devui-animation-duration-fast:.1s;--devui-animation-ease-in:cubic-bezier(.5, 0, .84, .25);--devui-animation-ease-out:cubic-bezier(.16, .75, .5, 1);--devui-animation-ease-in-out:cubic-bezier(.5, .05, .5, .95);--devui-animation-ease-in-out-smooth:cubic-bezier(.645, .045, .355, 1);--devui-animation-linear:cubic-bezier(0, 0, 1, 1);--devui-z-index-full-page-overlay:1080;--devui-z-index-dropdown:1052;--devui-z-index-pop-up:1060;--devui-z-index-modal:1050;--devui-z-index-drawer:1040;--devui-z-index-framework:1000}:root{--ion-background-color:#f8f8f8;--ion-background-color-rgb:249, 218, 218;--ion-text-color:#3d464f;--ion-text-color-rgb:61, 70, 79;--ion-item-background:#eeeeee;--ion-card-background:#f7f7f7;--ion-color-primary:#e2aa6f;--ion-color-primary-rgb:226, 170, 111;--ion-color-primary-contrast:#000000;--ion-color-primary-contrast-rgb:0, 0, 0;--ion-color-primary-shade:#c79662;--ion-color-primary-tint:#e5b37d;--ion-color-secondary:#eed1b3;--ion-color-secondary-rgb:238, 209, 179;--ion-color-secondary-contrast:#000000;--ion-color-secondary-contrast-rgb:0, 0, 0;--ion-color-secondary-shade:#d1b89e;--ion-color-secondary-tint:#f0d6bb;--ion-color-tertiary:#3b9af8;--ion-color-tertiary-rgb:59, 154, 248;--ion-color-tertiary-contrast:#ffffff;--ion-color-tertiary-contrast-rgb:255, 255, 255;--ion-color-tertiary-shade:#3488da;--ion-color-tertiary-tint:#5074fd;--ion-color-success:#2dd36f;--ion-color-success-rgb:45, 211, 111;--ion-color-success-contrast:#000000;--ion-color-success-contrast-rgb:0, 0, 0;--ion-color-success-shade:#28ba62;--ion-color-success-tint:#42d77d;--ion-color-warning:#f8d421;--ion-color-warning-rgb:248, 212, 33;--ion-color-warning-contrast:#000000;--ion-color-warning-contrast-rgb:0, 0, 0;--ion-color-warning-shade:#dabb1d;--ion-color-warning-tint:#f9d837;--ion-color-danger:#ff4d4f;--ion-color-danger-rgb:255, 77, 79;--ion-color-danger-contrast:#ffffff;--ion-color-danger-contrast-rgb:0, 0, 0;--ion-color-danger-shade:#e04446;--ion-color-danger-tint:#ff5f61;--ion-color-medium:#3d464f;--ion-color-medium-rgb:61, 70, 79;--ion-color-medium-contrast:#ffffff;--ion-color-medium-contrast-rgb:255, 255, 255;--ion-color-medium-shade:#363e46;--ion-color-medium-tint:#505961;--ion-color-light:#ffffff;--ion-color-light-rgb:255, 255, 255;--ion-color-light-contrast:#3d464f;--ion-color-light-contrast-rgb:61, 70, 79;--ion-color-light-shade:#f5f5f5;--ion-color-light-tint:#f5f5f5;--ion-font-family:"Helvetica Neue", "Hiragino Sans GB", "PingFang SC", "Microsoft Yahei", sans-serif}@media (prefers-color-scheme: dark){:root{--ion-background-color:#f8f8f8;--ion-background-color-rgb:249, 218, 218;--ion-text-color:#3d464f;--ion-text-color-rgb:61, 70, 79;--ion-item-background:#eeeeee;--ion-card-background:#f7f7f7;--ion-color-primary:#e2aa6f;--ion-color-primary-rgb:226, 170, 111;--ion-color-primary-contrast:#000000;--ion-color-primary-contrast-rgb:0, 0, 0;--ion-color-primary-shade:#c79662;--ion-color-primary-tint:#e5b37d;--ion-color-secondary:#eed1b3;--ion-color-secondary-rgb:238, 209, 179;--ion-color-secondary-contrast:#000000;--ion-color-secondary-contrast-rgb:0, 0, 0;--ion-color-secondary-shade:#d1b89e;--ion-color-secondary-tint:#f0d6bb;--ion-color-tertiary:#3b9af8;--ion-color-tertiary-rgb:59, 154, 248;--ion-color-tertiary-contrast:#ffffff;--ion-color-tertiary-contrast-rgb:255, 255, 255;--ion-color-tertiary-shade:#3488da;--ion-color-tertiary-tint:#5074fd;--ion-color-success:#2dd36f;--ion-color-success-rgb:45, 211, 111;--ion-color-success-contrast:#000000;--ion-color-success-contrast-rgb:0, 0, 0;--ion-color-success-shade:#28ba62;--ion-color-success-tint:#42d77d;--ion-color-warning:#f8d421;--ion-color-warning-rgb:248, 212, 33;--ion-color-warning-contrast:#000000;--ion-color-warning-contrast-rgb:0, 0, 0;--ion-color-warning-shade:#dabb1d;--ion-color-warning-tint:#f9d837;--ion-color-danger:#ff4d4f;--ion-color-danger-rgb:255, 77, 79;--ion-color-danger-contrast:#ffffff;--ion-color-danger-contrast-rgb:0, 0, 0;--ion-color-danger-shade:#e04446;--ion-color-danger-tint:#ff5f61;--ion-color-medium:#3d464f;--ion-color-medium-rgb:61, 70, 79;--ion-color-medium-contrast:#ffffff;--ion-color-medium-contrast-rgb:255, 255, 255;--ion-color-medium-shade:#363e46;--ion-color-medium-tint:#505961;--ion-color-light:#ffffff;--ion-color-light-rgb:255, 255, 255;--ion-color-light-contrast:#3d464f;--ion-color-light-contrast-rgb:61, 70, 79;--ion-color-light-shade:#f5f5f5;--ion-color-light-tint:#f5f5f5;--ion-font-family:"Helvetica Neue", "Hiragino Sans GB", "PingFang SC", "Microsoft Yahei", sans-serif}}:root{--weui-BRAND:#e2aa6f}html,body{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-size:13px;line-height:1.5;letter-spacing:.05em;font-family:Helvetica Neue,Hiragino Sans GB,PingFang SC,Microsoft Yahei,sans-serif}html{height:100%;box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}@charset "UTF-8";:root{--animate-duration:1s;--animate-delay:1s;--animate-repeat:1}html{--ion-font-family:var(--ion-default-font)}body{background:var(--ion-background-color)}@supports (padding-top: 20px){html{--ion-safe-area-top:var(--ion-statusbar-padding)}}@supports (padding-top: constant(safe-area-inset-top)){html{--ion-safe-area-top:constant(safe-area-inset-top);--ion-safe-area-bottom:constant(safe-area-inset-bottom);--ion-safe-area-left:constant(safe-area-inset-left);--ion-safe-area-right:constant(safe-area-inset-right)}}@supports (padding-top: env(safe-area-inset-top)){html{--ion-safe-area-top:env(safe-area-inset-top);--ion-safe-area-bottom:env(safe-area-inset-bottom);--ion-safe-area-left:env(safe-area-inset-left);--ion-safe-area-right:env(safe-area-inset-right)}}*{box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}html{width:100%;height:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}html:not(.hydrated) body{display:none}body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;padding:0;position:fixed;width:100%;max-width:100%;height:100%;max-height:100%;transform:translateZ(0);text-rendering:optimizeLegibility;overflow:hidden;touch-action:manipulation;-webkit-user-drag:none;-ms-content-zooming:none;word-wrap:break-word;overscroll-behavior-y:none;-webkit-text-size-adjust:none;text-size-adjust:none}html{font-family:var(--ion-font-family)}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{margin:0;padding:0;color:#252b3a;color:var(--devui-text, #252b3a);font-size:12px;font-size:var(--devui-font-size, 12px);font-family:HuaweiFont,Helvetica,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft YaHei,\5fae\8f6f\96c5\9ed1,Microsoft JhengHei;font-feature-settings:"tnum";font-variant:tabular-nums;line-height:1.5}*,*:before,*:after{box-sizing:border-box}body>* ::-webkit-scrollbar{width:8px;height:8px}body>* ::-webkit-scrollbar-track{background-color:transparent}body>* ::-webkit-scrollbar-thumb{border-radius:8px;background-color:#adb0b8;background-color:var(--devui-line, #adb0b8)}body>* ::-webkit-scrollbar-thumb:hover{background-color:#8a8e99;background-color:var(--devui-placeholder, #8a8e99)}body>* ::-webkit-scrollbar-corner{background-color:transparent}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}body{--weui-BTN-DISABLED-FONT-COLOR:rgba(0, 0, 0, .2)}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BTN-DISABLED-FONT-COLOR:rgba(255, 255, 255, .2)}}body{--weui-BTN-DEFAULT-BG:#f2f2f2}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BTN-DEFAULT-BG:rgba(255, 255, 255, .08)}}body{--weui-BTN-DEFAULT-COLOR:#06ae56}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BTN-DEFAULT-COLOR:rgba(255, 255, 255, .8)}}body{--weui-BTN-DEFAULT-ACTIVE-BG:#e6e6e6}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BTN-DEFAULT-ACTIVE-BG:rgba(255, 255, 255, .126)}}body{--weui-BTN-ACTIVE-MASK:rgba(0, 0, 0, .1)}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BTN-ACTIVE-MASK:rgba(255, 255, 255, .05)}}body{--weui-DIALOG-LINE-COLOR:rgba(0, 0, 0, .1)}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-DIALOG-LINE-COLOR:rgba(255, 255, 255, .1)}}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{line-height:1.6;font-family:-apple-system-font,Helvetica Neue,sans-serif}*{margin:0;padding:0;outline:0}body{--weui-BG-0:#ededed;--weui-BG-1:#f7f7f7;--weui-BG-2:#fff;--weui-BG-3:#f7f7f7;--weui-BG-4:#4c4c4c;--weui-BG-5:#fff;--weui-FG-0:rgba(0, 0, 0, .9);--weui-FG-HALF:rgba(0, 0, 0, .9);--weui-FG-1:rgba(0, 0, 0, .5);--weui-FG-2:rgba(0, 0, 0, .3);--weui-FG-3:rgba(0, 0, 0, .1);--weui-FG-4:rgba(0, 0, 0, .15);--weui-RED:#fa5151;--weui-ORANGE:#fa9d3b;--weui-YELLOW:#ffc300;--weui-GREEN:#91d300;--weui-LIGHTGREEN:#95ec69;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1485ee;--weui-PURPLE:#6467f0;--weui-WHITE:#fff;--weui-LINK:#576b95;--weui-TEXTGREEN:#06ae56;--weui-FG:#000;--weui-BG:#fff;--weui-TAG-TEXT-ORANGE:#fa9d3b;--weui-TAG-BACKGROUND-ORANGE:rgba(250, 157, 59, .1);--weui-TAG-TEXT-GREEN:#06ae56;--weui-TAG-BACKGROUND-GREEN:rgba(6, 174, 86, .1);--weui-TAG-TEXT-BLUE:#10aeff;--weui-TAG-BACKGROUND-BLUE:rgba(16, 174, 255, .1);--weui-TAG-TEXT-BLACK:rgba(0, 0, 0, .5);--weui-TAG-BACKGROUND-BLACK:rgba(0, 0, 0, .05)}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255, 255, 255, .8);--weui-FG-HALF:rgba(255, 255, 255, .6);--weui-FG-1:rgba(255, 255, 255, .5);--weui-FG-2:rgba(255, 255, 255, .3);--weui-FG-3:rgba(255, 255, 255, .1);--weui-FG-4:rgba(255, 255, 255, .15);--weui-RED:#fa5151;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#3eb575;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255, 255, 255, .8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:#fff;--weui-BG:#000;--weui-TAG-TEXT-ORANGE:rgba(250, 157, 59, .6);--weui-TAG-BACKGROUND-ORANGE:rgba(250, 157, 59, .1);--weui-TAG-TEXT-GREEN:rgba(6, 174, 86, .6);--weui-TAG-BACKGROUND-GREEN:rgba(6, 174, 86, .1);--weui-TAG-TEXT-BLUE:rgba(16, 174, 255, .6);--weui-TAG-BACKGROUND-BLUE:rgba(16, 174, 255, .1);--weui-TAG-TEXT-BLACK:rgba(255, 255, 255, .5);--weui-TAG-BACKGROUND-BLACK:rgba(255, 255, 255, .05)}}body{--weui-BG-COLOR-ACTIVE:#ececec}@media (prefers-color-scheme:dark){body:not([data-weui-theme="light"]){--weui-BG-COLOR-ACTIVE:#373737}}body{--weui-cellMarginLR:16px;--weui-cellPaddingLR:16px}body{--weui-BG-0:#ededed;--weui-BG-1:#f7f7f7;--weui-BG-2:#fff;--weui-BG-3:#f7f7f7;--weui-BG-4:#4c4c4c;--weui-BG-5:#fff;--weui-FG-0:rgba(0, 0, 0, .9);--weui-FG-HALF:rgba(0, 0, 0, .9);--weui-FG-1:rgba(0, 0, 0, .5);--weui-FG-2:rgba(0, 0, 0, .3);--weui-FG-3:rgba(0, 0, 0, .1);--weui-RED:#fa5151;--weui-ORANGE:#fa9d3b;--weui-YELLOW:#ffc300;--weui-GREEN:#91d300;--weui-LIGHTGREEN:#95ec69;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1485ee;--weui-PURPLE:#6467f0;--weui-WHITE:#fff;--weui-LINK:#576b95;--weui-TEXTGREEN:#06ae56;--weui-FG:black;--weui-BG:white;--weui-TAG-TEXT-ORANGE:#fa9d3b;--weui-TAG-BACKGROUND-ORANGE:rgba(250, 157, 59, .1);--weui-TAG-TEXT-GREEN:#06ae56;--weui-TAG-BACKGROUND-GREEN:rgba(6, 174, 86, .1);--weui-TAG-TEXT-BLUE:#10aeff;--weui-TAG-BACKGROUND-BLUE:rgba(16, 174, 255, .1);--weui-TAG-TEXT-BLACK:rgba(0, 0, 0, .5);--weui-TAG-BACKGROUND-BLACK:rgba(0, 0, 0, .05)}@media (prefers-color-scheme: dark){body:not([data-weui-theme="light"]){--weui-BG-0:#191919;--weui-BG-1:#1f1f1f;--weui-BG-2:#232323;--weui-BG-3:#2f2f2f;--weui-BG-4:#606060;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255, 255, 255, .8);--weui-FG-HALF:rgba(255, 255, 255, .6);--weui-FG-1:rgba(255, 255, 255, .5);--weui-FG-2:rgba(255, 255, 255, .3);--weui-FG-3:rgba(255, 255, 255, .05);--weui-RED:#fa5151;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#28b561;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255, 255, 255, .8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:white;--weui-BG:black;--weui-TAG-TEXT-ORANGE:rgba(250, 157, 59, .6);--weui-TAG-BACKGROUND-ORANGE:rgba(250, 157, 59, .1);--weui-TAG-TEXT-GREEN:rgba(6, 174, 86, .6);--weui-TAG-BACKGROUND-GREEN:rgba(6, 174, 86, .1);--weui-TAG-TEXT-BLUE:rgba(16, 174, 255, .6);--weui-TAG-BACKGROUND-BLUE:rgba(16, 174, 255, .1);--weui-TAG-TEXT-BLACK:rgba(255, 255, 255, .5);--weui-TAG-BACKGROUND-BLACK:rgba(255, 255, 255, .05)}}body{--weui-BG-COLOR-ACTIVE:#ececec}@media (prefers-color-scheme: dark){body:not([data-weui-theme="light"]){--weui-BG-COLOR-ACTIVE:#373737}}body{line-height:1.5;font-size:14px;color:#3d464f}</style><link rel="stylesheet" href="styles.e6421cbd42f05462.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.e6421cbd42f05462.css"></noscript><style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    html,
+    body {
+      height: 100%;
+    }
+    /* MobileSafari */
+    @supports (-webkit-touch-callout: none) {
       body {
-        -ms-touch-action: none;
-        background: #202836;
-        padding: 0;
-        border: 0;
-        margin: 0;
-        height: 100%;
-      }</style></head><body><div style="margin: auto; width: 100%; height: 100%" class="egret-player" data-entry-class="Main" data-orientation="landscape" data-scale-mode="showAll" data-frame-rate="30" data-content-width="1920" data-content-height="1080" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div><script>var loadScript = function (list, callback) {
-        var loaded = 0;
-        var loadNext = function () {
-          loadSingleScript(list[loaded], function () {
-            loaded++;
-            if (loaded >= list.length) {
-              callback();
-            } else {
-              loadNext();
-            }
-          });
-        };
-        loadNext();
-      };
+        height: -webkit-fill-available;
+      }
+      * {
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+  </style><script>
+    let vw = window.innerWidth;
+    const setFillHeight = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+    };
 
-      var loadSingleScript = function (src, callback) {
-        var s = document.createElement("script");
-        s.async = false;
-        s.src = src;
-        s.addEventListener(
-          "load",
-          function () {
-            s.parentNode.removeChild(s);
-            s.removeEventListener("load", arguments.callee, false);
-            callback();
-          },
-          false
-        );
-        document.body.appendChild(s);
-      };
+    window.addEventListener("resize", () => {
+      if (vw === window.innerWidth) {
+        return;
+      }
 
-      var xhr = new XMLHttpRequest();
-      xhr.open("GET", "./manifest.json?v=" + Math.random(), true);
-      xhr.addEventListener("load", function () {
-        var manifest = JSON.parse(xhr.response);
-        var list = manifest.initial.concat(manifest.game);
-        loadScript(list, function () {
-          /**
-           * {
-           * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
-           * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
-           * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
-           * "calculateCanvasScaleFactor": //a function return canvas scale factor
-           * }
-           **/
-          egret.runEgret({
-            renderMode: "webgl",
-            audioType: 0,
-            calculateCanvasScaleFactor: function (context) {
-              var backingStore =
-                context.backingStorePixelRatio ||
-                context.webkitBackingStorePixelRatio ||
-                context.mozBackingStorePixelRatio ||
-                context.msBackingStorePixelRatio ||
-                context.oBackingStorePixelRatio ||
-                context.backingStorePixelRatio ||
-                1;
-              return (window.devicePixelRatio || 1) / backingStore;
-            },
-          });
-        });
-      });
-      xhr.send(null);</script></body></html>
+      vw = window.innerWidth;
+      setFillHeight();
+    });
+
+    setFillHeight();
+
+    // var vConsole = new window.VConsole();
+  </script></head>
+  
+  
+
+  <body>
+    <app-root></app-root>
+    <noscript>
+      Please enable JavaScript to continue using this application.
+    </noscript>
+  <script src="runtime.3b267ae5e370c892.js" type="module"></script><script src="polyfills.ff60c501a6550566.js" type="module"></script><script src="scripts.cae06c30d00d2c25.js" defer></script><script src="main.76dae8fc622ed5dd.js" type="module"></script>
+
+  <script type="text/javascript">
+    // var ua = navigator.userAgent.toLowerCase();
+    // var isWeixin = ua.indexOf("micromessenger") != -1;
+    // var isAndroid = ua.indexOf("android") != -1;
+    // var isIos = ua.indexOf("iphone") != -1 || ua.indexOf("ipad") != -1;
+    // if (!isWeixin) {
+    //   document.head.innerHTML =
+    //     '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
+    //   document.body.innerHTML =
+    //     '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
+    // }
+  </script>
+
+</body></html>
