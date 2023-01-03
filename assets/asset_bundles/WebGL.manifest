@@ -1,13 +1,7 @@
 ManifestFileVersion: 0
-CRC: 1698088101
+CRC: 3813061755
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: polygon_city.assetbundle
-      Dependencies: {}
-    Info_1:
-      Name: simple_nature.assetbundle
-      Dependencies: {}
-    Info_2:
-      Name: amusementpark.assetbundle
+      Name: parkdemo.assetbundle
       Dependencies: {}
